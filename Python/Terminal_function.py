@@ -1,10 +1,23 @@
-def Welcome_words():
-    print("\nWelcome to DslsTermux!\n|nUse package:\n\n * Search for software packages: pkg search <query>\n * Install software package: pkg install <package>\n * Upgrade package: pkg upgrade\n\nOther repositories:\n\n * root: pkg install root-repo\n * X11: pkg install x11-repo\n\nAuthor QQ:2470305344")
-    a = input("\n\033[1;32m ~ \033[0m" + "$ ")
+def input_a():
+    a = input("\033[1;32m ~ \033[0m$ ")
     return a
 
-def Judge(a):
-    if a == "pkg install root-repo":
-        print("Installation failed")
 
+def welcome_words():
+    print("""
+Welcome to DslsTermux!
+Use package:
 
+ * Search for software packages: pkg search <query>
+ * Install software package: pkg install <package>
+
+ * Upgrade package: pkg upgrade
+
+Other repositories:
+
+ * root: pkg install root-repo
+ * X11: pkg install x11-repo
+
+Author QQ:2470305344
+""")
+    input_a()
