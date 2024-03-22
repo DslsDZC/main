@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year.&#10;There is no copyright leakage in this studio. If any infringement is found, legal responsibility will be investigated." />
+    <option name="myName" value="Dsls" />
+  </copyright>
+</component>
