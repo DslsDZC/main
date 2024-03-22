@@ -1,3 +1,6 @@
+#  Copyright (c) 2024.
+#  There is no copyright leakage in this studio. If any infringement is found, legal responsibility will be investigated.
+
 import getpass
 import hashlib
 import secrets

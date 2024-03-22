@@ -1,3 +1,6 @@
+#  Copyright (c) 2024.
+#  There is no copyright leakage in this studio. If any infringement is found, legal responsibility will be investigated.
+
 # 定义终端文字颜色常量
 COLOR_GREEN = "\033[1;32m"
 COLOR_RESET = "\033[0m"
