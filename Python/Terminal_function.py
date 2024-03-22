@@ -1,10 +1,9 @@
-def input_a():
-    a = input("\033[1;32m ~ \033[0m$ ")
-    return a
+# 定义终端文字颜色常量
+COLOR_GREEN = "\033[1;32m"
+COLOR_RESET = "\033[0m"
 
-
-def welcome_words():
-    print("""
+# 定义欢迎信息字符串
+WELCOME_MESSAGE = """
 Welcome to DslsTermux!
 Use package:
 
@@ -18,6 +17,18 @@ Other repositories:
  * root: pkg install root-repo
  * X11: pkg install x11-repo
 
-Author QQ:2470305344
-""")
-    input_a()
+Author QQ: 2470305344
+"""
+
+
+def input_a():
+    # 获取用户输入，并在终端显示绿色提示符
+    a = input(f"{COLOR_GREEN} ~ {COLOR_RESET}$ ")
+    return a
+
+
+def welcome_words():
+    # 打印欢迎信息
+    print(WELCOME_MESSAGE)
+    # 返回用户输入的内容
+    return input_a()
